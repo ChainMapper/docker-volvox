@@ -14,7 +14,7 @@ RUN	git clone $GIT_COIN_URL $GIT_COIN_NAME \
 #Add a config so you can run without providing a bitnodes.conf through a volume
 COPY VOLVOX.conf /data/.VOLVOX/VOLVOX.conf
 
-EXPOSE 4528 4527
+EXPOSE 19056 19156
 
 ENV HOME /data
 
